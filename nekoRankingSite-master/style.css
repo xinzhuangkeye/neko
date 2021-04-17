@@ -16,24 +16,51 @@
 }
 
 table {
+	  display: table;
     overflow: hidden;
     border-spacing: 0;
     border-radius: 10px;
     text-align: center;
     width: 100%;
     table-layout: fixed;
+	  height: 90vh;
 }
 
 table tbody th {
-    background: #fff;
-}
-
-table td {
-    background: #fff;
+    background: #f7e1e1;
 }
 
 table .td-head{
     background: #f7e1e1;
+}
+
+table td{
+	  font-size: 0.9em;
+}
+
+.rank-table tbody .good{
+	  background-color: #faf0e6;
+    background-image: url(http://nioi-research.com/ranking/wp-content/uploads/2021/04/vgood.png);
+    background-repeat: no-repeat;
+	  background-position: 50% 10px;
+    padding-top: 80px;
+    padding-bottom: 6px;
+}
+
+.rank-table tbody .soso{
+    background-image: url(http://nioi-research.com/ranking/wp-content/uploads/2021/04/soso.png);
+    background-repeat: no-repeat;
+	  background-position: 50% 10px;
+    padding-top: 80px;
+    padding-bottom: 6px;
+}
+
+.rank-table tbody .nogood{
+    background-image: url(http://nioi-research.com/ranking/wp-content/uploads/2021/04/nogood.png);
+    background-repeat: no-repeat;
+	  background-position: 50% 10px;
+    padding-top: 80px;
+    padding-bottom: 6px;
 }
 
 table tfoot td {
@@ -45,6 +72,10 @@ table tfoot td {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+}
+
+.table-btn{
+	  margin: 0px 3px 0px 3px;
 }
 
 @media screen and (min-width: 1364px){
@@ -65,7 +96,7 @@ table tfoot td {
 }
   
 .item-box img{
-    height: 90px;
+    height: 170px;
     align-items: center;
     margin-bottom: 0;
 }
@@ -74,11 +105,23 @@ table tfoot td {
     max-width: 150px;
 }
 
+.rank-table-name{
+	  font-size: 0.9em
+}
+
+.rank-table-com{
+	  font-size: 0.75em
+}
+
 .rank-table td .good{
     background: #fff no-repeat;
     background-position: 50% 10px;
     padding-top: 66px;
     padding-bottom: 8px;
+}
+
+.big-commit{
+	  text-align: center;
 }
 
 #pc-img {
