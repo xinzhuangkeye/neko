@@ -1,0 +1,96 @@
+#logo{
+    display: none;
+}
+
+.pc-walcome-table{
+    display: none;
+}
+
+@media screen and (min-width: 1364px){
+    .walcome-table{
+        display: none;
+    }
+    .pc-walcome-table{
+        display: block;
+    }
+}
+
+table {
+    overflow: hidden;
+    border-spacing: 0;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table tbody th {
+    background: #fff;
+}
+
+table td {
+    background: #fff;
+}
+
+table .td-head{
+    background: #f7e1e1;
+}
+
+table tfoot td {
+    padding: 10px 0px 0px 0px;
+}
+  
+.item-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1364px){
+    .item-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+.rank-box p{
+	display: none;
+}
+
+.item-box p{
+	display: none;
+}
+  
+.item-box img{
+    height: 90px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.diver_voice_wrap figure{
+    max-width: 150px;
+}
+
+.rank-table td .good{
+    background: #fff no-repeat;
+    background-position: 50% 10px;
+    padding-top: 66px;
+    padding-bottom: 8px;
+}
+
+#pc-img {
+    display: none;
+}
+
+@media screen and (min-width: 1201px){
+    #pc-img {
+        display: block;
+    }
+
+    #sp-img {
+        display: none;
+    }
+}
