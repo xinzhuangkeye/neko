@@ -16,14 +16,22 @@
 }
 
 table {
-	  display: table;
+	display: table;
     overflow: hidden;
     border-spacing: 0;
     border-radius: 10px;
     text-align: center;
     width: 100%;
     table-layout: fixed;
-	  height: 90vh;
+	height: 85vh;
+}
+
+.big-commit{
+    text-align: center;
+}
+
+.table-btn{
+    margin: 0px 2px 0px 2px;
 }
 
 table tbody th {
@@ -34,33 +42,41 @@ table .td-head{
     background: #f7e1e1;
 }
 
-table td{
-	  font-size: 0.9em;
+.rank-table-name{
+    font-size: 0.95em;
+}
+
+.rank-table-com{
+    font-size: 0.7em;
+}
+
+.rank-table tbody td{
+    font-size: 0.75em;
 }
 
 .rank-table tbody .good{
-	  background-color: #faf0e6;
+	background-color: #faf0e6;
     background-image: url(http://nioi-research.com/ranking/wp-content/uploads/2021/04/vgood.png);
     background-repeat: no-repeat;
-	  background-position: 50% 10px;
-    padding-top: 80px;
-    padding-bottom: 6px;
+	background-position: 50% 10px;
+    padding-top: 75px;
+    padding-bottom: 5px;
 }
 
 .rank-table tbody .soso{
     background-image: url(http://nioi-research.com/ranking/wp-content/uploads/2021/04/soso.png);
     background-repeat: no-repeat;
-	  background-position: 50% 10px;
-    padding-top: 80px;
-    padding-bottom: 6px;
+	background-position: 50% 10px;
+    padding-top: 75px;
+    padding-bottom: 5px;
 }
 
 .rank-table tbody .nogood{
     background-image: url(http://nioi-research.com/ranking/wp-content/uploads/2021/04/nogood.png);
     background-repeat: no-repeat;
-	  background-position: 50% 10px;
-    padding-top: 80px;
-    padding-bottom: 6px;
+	background-position: 50% 10px;
+    padding-top: 75px;
+    padding-bottom: 5px;
 }
 
 table tfoot td {
@@ -72,10 +88,6 @@ table tfoot td {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-}
-
-.table-btn{
-	  margin: 0px 3px 0px 3px;
 }
 
 @media screen and (min-width: 1364px){
@@ -96,39 +108,20 @@ table tfoot td {
 }
   
 .item-box img{
-    height: 170px;
+    height: 140px;
     align-items: center;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
-.diver_voice_wrap figure{
-    max-width: 150px;
-}
-
-.rank-table-name{
-	  font-size: 0.9em
-}
-
-.rank-table-com{
-	  font-size: 0.75em
-}
-
-.rank-table td .good{
-    background: #fff no-repeat;
-    background-position: 50% 10px;
-    padding-top: 66px;
-    padding-bottom: 8px;
-}
-
-.big-commit{
-	  text-align: center;
+.diver_voice_wrap{
+    height: 150px;
 }
 
 #pc-img {
     display: none;
 }
 
-@media screen and (min-width: 1201px){
+@media screen and (min-width: 1364px){
     #pc-img {
         display: block;
     }
@@ -136,4 +129,27 @@ table tfoot td {
     #sp-img {
         display: none;
     }
+}
+
+.rank_btn_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rank_btn_wrap a img{
+    width: 300px;
+    height: auto;
+}
+
+.diver_review_table{
+    height: 80px;
+}
+
+#single-main .post-meta{
+    display: none;
+}
+
+.single_thumbnail{
+    display: none;
 }
